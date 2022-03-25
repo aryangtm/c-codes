@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int  r=3,c=3,i,j,d;
-    int a[r][c];
-    for(i=0;i<r;i++)
+    int  rr=3,c=3,i,j,d;
+    int a[rr][c];
+    for(i=0;i<rr;i++)
     {
         for(j=0;j<c;j++)
         {
             scanf("%d",&a[i][j]);
         }
     }
-    for(i=0;i<r;i++)
+    for(i=0;i<rr;i++)
     {
         for(j=0;j<c;j++)
         {
